@@ -46,14 +46,4 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
-    content:
-      title: Join Our Team
-      subtitle:
-      text: |
-        We are always looking for motivated students and researchers to join our group.
-
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
 ---

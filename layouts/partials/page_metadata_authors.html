@@ -11,9 +11,9 @@
       {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
       {{/*{{- if .RelPermalink -}}*/}}
 
-      {{/* 0 不要连接了 ONLY Peng Miao IS AVAILABLE TO LINK TO DETAIL PAGE */}}
-      {{- if and 0 .RelPermalink  (eq .LinkTitle "Peng Miao") -}}
-        <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
+      {{/* Bold authors who have a profile page (are in 'People') */}}
+      {{- if .RelPermalink -}}
+        <span style="font-weight: bold;">{{ .LinkTitle }}</span>
       {{- else -}}
         {{ .LinkTitle }}
       {{- end -}}

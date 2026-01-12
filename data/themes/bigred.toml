@@ -1,0 +1,23 @@
+# Theme metadata
+name = "Big Red"
+
+[light]
+  # Primary - Cornell Red
+  primary = "#B31B1B"
+
+  # Menu
+  menu_primary = "#fff"
+  menu_text = "#222"
+  menu_text_active = "#B31B1B"
+  menu_title = "#222"
+
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(250, 245, 245)"
+
+[dark]
+  # Primary
+  primary = "#B31B1B"
+
+  link = "#B31B1B"
+  link_hover = "#B31B1B"
