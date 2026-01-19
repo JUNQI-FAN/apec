@@ -1,0 +1,23 @@
+# Theme metadata
+name = "Sans"
+
+[light]
+  # Primary
+  primary = "#000000"
+
+  # Menu
+  menu_primary = "#ffffff"
+  menu_text = "#000000"
+  menu_text_active = "#666666"
+  menu_title = "#000000"
+
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(255, 255, 255)"
+
+[dark]
+  # Primary
+  primary = "#000000"
+
+  link = "#000000"
+  link_hover = "#000000"

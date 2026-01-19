@@ -7,7 +7,7 @@
 
 appearance:
 #  theme_day: minimal
-  theme_day: royal
+  theme_day: sans
   theme_night: ''
   font: native
   font_size: M  # S   M   L
