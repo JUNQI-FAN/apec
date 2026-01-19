@@ -6,10 +6,10 @@ name = "Royal"
   primary = "#0033A0"
 
   # Menu
-  menu_primary = "#fff"
-  menu_text = "#0033A0"
-  menu_text_active = "#002060"
-  menu_title = "#0033A0"
+  menu_primary = "#0033A0"
+  menu_text = "#fff"
+  menu_text_active = "#e3e3e3"
+  menu_title = "#fff"
 
   # Home sections
   home_section_odd = "rgb(255, 255, 255)"

@@ -6,10 +6,10 @@ name = "Ivy"
   primary = "#E77500"
 
   # Menu
-  menu_primary = "#fff"
-  menu_text = "#121212"
-  menu_text_active = "#E77500"
-  menu_title = "#121212"
+  menu_primary = "#E77500"
+  menu_text = "#000"
+  menu_text_active = "#fff"
+  menu_title = "#000"
 
   # Home sections
   home_section_odd = "rgb(255, 255, 255)"

@@ -3,9 +3,9 @@
 
 
 //$navbar-theme-bg-primary:  #17535d; //导航栏背景色
-$navbar-theme-bg-primary:  #1565c0; //导航栏背景色
-$navbar-theme-text-primary:  #fff; //导航栏前景文字颜色
-$navbar-theme-top-line-primary:  #8dc015; //导航栏顶部横线颜色
+// $navbar-theme-bg-primary:  #1565c0; //导航栏背景色
+// $navbar-theme-text-primary:  #fff; //导航栏前景文字颜色
+// $navbar-theme-top-line-primary:  #8dc015; //导航栏顶部横线颜色
 
 
 
@@ -62,12 +62,14 @@ $navbar-theme-top-line-primary:  #8dc015; //导航栏顶部横线颜色
     width: 100%;
   }
   .video-title-wrap {
-    color: $navbar-theme-text-primary;
+    // color: $navbar-theme-text-primary;
+    color: var(--wc-menu-text);
     padding: 0.5rem 2rem;
 
-    background-color: $navbar-theme-bg-primary;
+    // background-color: $navbar-theme-bg-primary;
+    background-color: var(--wc-menu-primary);
     //border-top: 4px solid #e65100;
-    border-top: 4px solid $navbar-theme-top-line-primary;
+    // border-top: 4px solid $navbar-theme-top-line-primary;
 
     display: flex;
     justify-content: space-between;
@@ -87,16 +89,19 @@ $navbar-theme-top-line-primary:  #8dc015; //导航栏顶部横线颜色
   max-height: unset !important;
 }
 .navbar {
-  background-color: $navbar-theme-bg-primary;
+  // background-color: $navbar-theme-bg-primary;
+  background-color: var(--wc-menu-primary);
   //background-color: #1565c0;
 }
 #navbar-main .main-menu-item ul li .nav-link {
-  color: $navbar-theme-text-primary;
+  // color: $navbar-theme-text-primary;
+  color: var(--wc-menu-text);
   font-size: 1.25rem;
   font-weight: 500;
 }
 .navbar-light .navbar-brand {
-  color: $navbar-theme-text-primary;
+  // color: $navbar-theme-text-primary;
+  color: var(--wc-menu-text);
 }
 
 

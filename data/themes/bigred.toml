@@ -6,10 +6,10 @@ name = "Big Red"
   primary = "#B31B1B"
 
   # Menu
-  menu_primary = "#fff"
-  menu_text = "#222"
-  menu_text_active = "#B31B1B"
-  menu_title = "#222"
+  menu_primary = "#B31B1B"
+  menu_text = "#fff"
+  menu_text_active = "#e3e3e3"
+  menu_title = "#fff"
 
   # Home sections
   home_section_odd = "rgb(255, 255, 255)"
