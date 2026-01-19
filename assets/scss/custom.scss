@@ -92,6 +92,8 @@ $navbar-theme-top-line-primary:  #8dc015; //导航栏顶部横线颜色
 }
 #navbar-main .main-menu-item ul li .nav-link {
   color: $navbar-theme-text-primary;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 .navbar-light .navbar-brand {
   color: $navbar-theme-text-primary;

@@ -1,0 +1,23 @@
+# Theme metadata
+name = "Ivy"
+
+[light]
+  # Primary - Princeton Orange
+  primary = "#E77500"
+
+  # Menu
+  menu_primary = "#fff"
+  menu_text = "#121212"
+  menu_text_active = "#E77500"
+  menu_title = "#121212"
+
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(248, 248, 248)"
+
+[dark]
+  # Primary
+  primary = "#E77500"
+
+  link = "#E77500"
+  link_hover = "#E77500"
